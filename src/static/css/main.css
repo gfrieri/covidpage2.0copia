@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  top: 0;
+  background: var(--el-color-o1);
+  font-style: italic;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar_title {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--bg-color-c1);
+  text-decoration: none;
+  justify-content: left;
+}
+
+.navbar_title:hover {
+  text-decoration: none;
+  color: var(--bg-color-c2);
+}
+
+.nav_logo {
+  display: inline-block;
+  /*box-shadow: 0px 1px 8px 0px var(--bg-color-c2);*/
+  border-radius: 1rem;
+}
+
+.navbar_list {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: var(--el-color-o3);
+  color: var(--bg-color-c1);
+  border-radius: 0.3rem;
+}
+.nav_link {
+  display: block;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0.5rem 1rem;
+  color: var(--bg-color-c2);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.nav_link:focus,
+.nav_link:hover {
+  color: var(--bg-color-c1);
+}
+
+.titulo_pg {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background: var(--bg-color-c1);
+  color: var(--el-color-o2);
+  padding: 0;
+}
+
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+footer {
+  background: var(--el-color-o1);
+  position: static;
+  left: 0;
+  bottom: 0vh;
+  color: var(--bg-color-c1);
+  width: 100%;
+  font-style: italic;
+}
+
+.img_prin {
+  width: 100%;
+}
+
+.img_graph {
+  margin-bottom: 20px;
+  margin-left: 20rem;
+  align-items: right;
+  display: flex;
+  width: 550px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 1px;
+}
+
+.list {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  color: var(--bg-color-c2);
+}
+
+.member_link {
+  display: block;
+  font-size: 20px;
+  margin: 5px 20px;
+  color: var(--bg-color-c2);
+  text-decoration: none;
+}
+.member_link:hover {
+  color: var(--bg-color-c1);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.dropdown {
+  position: flex;
+  font-size: 24px;
+  margin-right: 3rem;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 15px;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  margin-top: 1px;
+  font: 10px;
+  bottom: 100%; /* added this attribute */
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
